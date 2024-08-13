@@ -1,0 +1,89 @@
+{
+    "summary": {
+        "BPU OPs per frame (effective)": 4643840,
+        "BPU OPs per run (effective)": 4643840,
+        "BPU PE number": 1,
+        "BPU core number": 1,
+        "BPU march": "BERNOULLI2",
+        "DDR bytes per frame": 500992.0,
+        "DDR bytes per run": 500992,
+        "DDR bytes per second": 7032552394,
+        "DDR megabytes per frame": 0.478,
+        "DDR megabytes per run": 0.478,
+        "DDR megabytes per second": 6706.8,
+        "FPS": 14037.25,
+        "HBDK version": "3.46.4",
+        "compiling options": "-f hbir -m /tmp/tmp44a3w06m/main_graph_subgraph_0.hbir -o /tmp/tmp44a3w06m/main_graph_subgraph_0.hbm --march bernoulli2 --progressbar --O0 --input-layout NHWC --output-layout NCHW",
+        "frame per run": 1,
+        "frame per second": 14037.25,
+        "input features": [
+            [
+                "input name",
+                "input size"
+            ],
+            [
+                "input_calibrated_quantized",
+                "1x28x28x1"
+            ]
+        ],
+        "interval computing unit utilization": [
+            0.363,
+            0.517,
+            0.416,
+            0.0,
+            0.0,
+            0.0,
+            0.164,
+            0.033
+        ],
+        "interval computing units utilization": [
+            0.363,
+            0.517,
+            0.416,
+            0.0,
+            0.0,
+            0.0,
+            0.164,
+            0.033
+        ],
+        "interval loading bandwidth (megabytes/s)": [
+            2581,
+            2621,
+            3415,
+            6829,
+            9489,
+            9489,
+            8053,
+            3318
+        ],
+        "interval number": 8,
+        "interval storing bandwidth (megabytes/s)": [
+            1708,
+            1281,
+            747,
+            320,
+            0,
+            0,
+            9,
+            27
+        ],
+        "interval time (ms)": 0.01,
+        "latency (ms)": 0.07,
+        "latency (ms) by segments": [
+            0.071
+        ],
+        "latency (us)": 71.2,
+        "loaded bytes per frame": 466816,
+        "loaded bytes per run": 466816,
+        "model json CRC": "ddfc2944",
+        "model json file": "/tmp/tmp44a3w06m/main_graph_subgraph_0.hbir",
+        "model name": "main_graph_subgraph_0",
+        "model param CRC": "00000000",
+        "multicore sync time (ms)": 0.0,
+        "run per second": 14037.25,
+        "runtime version": "3.15.29.0",
+        "stored bytes per frame": 34176,
+        "stored bytes per run": 34176,
+        "worst FPS": 14037.25
+    }
+}

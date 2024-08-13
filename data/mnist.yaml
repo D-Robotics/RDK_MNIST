@@ -1,0 +1,15 @@
+train: ../coco/train2017.txt  # 118287 images
+val: ../coco/val2017.txt  # 5000 images
+test: ../coco/test-dev2017.txt  # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/20794
+
+# number of classes
+nc: 10
+
+# class names
+names: ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
+
+# Print classes
+# with open('data/coco.yaml') as f:
+#   d = yaml.load(f, Loader=yaml.FullLoader)  # dict
+#   for i, x in enumerate(d['names']):
+#     print(i, x)
